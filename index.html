@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaFlow</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqk1Q27o42mYO+0GP9qq+h+oAGvSlV760o//+Y+d/9/hAOQ+9i5P+603hKRz3bvxmJhGMWHi+d/9/hAOQ+9i5P+603hKRz3bvxmJhGMWHi+" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#hero">
+                    <img src="logo.png" alt="Logo Aplikasi" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#tentang-kami">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#video-section">Demo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#fitur">Fitur</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#harga">Harga</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hubungi-kami">Masukan</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#find-professional">Cari Profesional</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="tentang-kami" class="hero container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6 order-md-2"> 
+                <h1 class="display-4">VitaFlow</h1>
+                <h1 class="display-4">Aliran Sehat untuk Hidup Anda</h1>
+                <p class="lead">VitaFlow adalah aplikasi kesehatan yang dirancang untuk membantu Anda mencapai tujuan kesehatan Anda dengan cara yang mudah dan praktis. Dengan VitaFlow, Anda dapat melacak aktivitas, makanan, dan tidur Anda, serta mendapatkan rencana latihan dan diet yang disesuaikan dengan kebutuhan Anda. Aplikasi ini juga menyediakan panduan meditasi dan relaksasi untuk membantu Anda mengurangi stres dan meningkatkan kesehatan mental. VitaFlow adalah solusi yang komprehensif untuk semua orang yang ingin meningkatkan kesejahteraan mereka. </p>
+                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#daftarModal">Mulai Perjalanan Sehat Anda Sekarang</button>
+            </div>
+            <div class="col-md-6 order-md-1"> 
+                <img src="jpgo.png" alt="Gambar Hero" class="img-fluid rounded"> 
+            </div>
+        </div>
+    </section>
+
+    <section id="video-section" style="text-align: center; padding: 20px;">
+        <h2>Video Demo Kebugaran</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wv1Likcjjho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    
+    
+    <section id="fitur" class="features container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Pelacakan Aktivitas</h3>
+                    <p>Lacak aktivitas fisik Anda seperti berjalan, berlari, bersepeda, dan olahraga lainnya. Catat waktu, jarak, kalori yang terbakar.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Pelacakan Makanan</h3>
+                    <p>Catat makanan dan minuman yang Anda konsumsi setiap hari. Aplikasi akan menghitung kalori, makro, dan nutrisi lainnya.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature">
+                    <i class="fas fa-users"></i>
+                    <h3>Rencana Latihan Pribadi</h3>
+                    <p>Dapatkan rencana latihan yang disesuaikan dengan tujuan, level kebugaran, dan preferensi Anda.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Pemantauan Detak Jantung</h3>
+                    <p>Pantau detak jantung Anda secara real-time dengan menggunakan perangkat yang kompatibel.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature">
+                    <i class="fas fa-brain"></i>
+                    <h3>Meditasi dan Relaksasi</h3>
+                    <p>Dapatkan panduan meditasi dan relaksasi untuk mengurangi stres dan meningkatkan kesehatan mental.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Temukan Profesional Kesehatan</h3>
+                    <p>Cari terapis, ahli gizi, dan profesional kesehatan lainnya yang sesuai dengan kebutuhan Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="harga" class="pricing container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h2>Paket Berlangganan</h2>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Paket</th>
+                            <th>Harga</th>
+                            <th>Fitur</th>
+                            <th>Berlangganan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paket Gratis</td>
+                            <td>Rp. 0</td>
+                            <td>Pelacakan Aktivitas, Pelacakan Makanan</td>
+                            <td>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscribeModal" data-paket="Gratis">Berlangganan</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Paket Pro</td>
+                            <td>Rp. 100.000</td>
+                            <td>Pelacakan Aktivitas, Pelacakan Makanan, Rencana Latihan Pribadi, Pemantauan Detak Jantung, Meditasi dan Relaksasi</td>
+                            <td>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscribeModal" data-paket="Pro">Berlangganan</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Paket Premium</td>
+                            <td>Rp. 250.000</td>
+                            <td>Semua fitur, Fitur tambahan (Analisis Data Lanjutan dan data lebih detail, Dukungan Profesional yang Lebih Komprehensif dan dukungan prioritas)</td>
+                            <td>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscribeModal" data-paket="Premium">Berlangganan</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h2>Apa Kata Mereka?</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <p class="card-text">"Aplikasi ini sangat membantu saya dalam mencapai target kebugaran saya. Saya sangat merekomendasikannya!" - Genard</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <p class="card-text">"Saya sangat terkesan dengan fitur pelacakan makanan dan analisis nutrisi. Aplikasi ini sangat mudah digunakan!" - Irfan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <p class="card-text">"Aplikasi ini membuat saya lebih termotivasi untuk hidup sehat. Saya sangat senang dengan kemajuan saya!" - Sania</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hubungi-kami" class="find-professional container mt-5" id="find-professional">
+        <div class="row">
+            <div class="col-12">
+                <h2>Temukan Profesional Kesehatan</h2>
+                <p>Cari terapis, ahli gizi, dan profesional kesehatan lainnya yang sesuai dengan kebutuhan Anda.</p>
+                <form id="search-form">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="search-query" placeholder="Cari profesional...">
+                        <button class="btn btn-primary" type="submit">Cari</button>
+                    </div>
+                </form>
+                <div id="search-results">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="modal fade" id="daftarModal" tabindex="-1" aria-labelledby="daftarModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="daftarModalLabel">Daftar Sekarang</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="daftarForm">
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Alamat Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="paket" class="form-label">Paket Berlangganan</label>
+                            <select class="form-select" id="paket">
+                                <option value="Gratis">Paket Gratis</option>
+                                <option value="Pro">Paket Pro</option>
+                                <option value="Premium">Paket Premium</option>
+                            </select>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="syaratKetentuan">
+                            <label class="form-check-label" for="syaratKetentuan">Saya menyetujui Syarat dan Ketentuan</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Mulai Perjalanan Sehat Anda</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="subscribeModalLabel">Berlangganan Paket</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="subscribeForm">
+                        <input type="hidden" id="selectedPaket" name="paket">
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Alamat Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="nomorTelepon" class="form-label">Nomor Telepon</label>
+                            <input type="tel" class="form-control" id="nomorTelepon" name="nomorTelepon" placeholder="Nomor Telepon" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="metodePembayaran" class="form-label">Metode Pembayaran</label>
+                            <select class="form-select" id="metodePembayaran" name="metodePembayaran" required>
+                                <option value="transferBank">Transfer Bank</option>
+                                <option value="kartuKredit">Kartu Kredit</option>
+                                <option value="eWallet">eWallet</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Berlangganan Sekarang</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

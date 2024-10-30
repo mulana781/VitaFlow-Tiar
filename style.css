@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f7f9fc;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #3a3f58;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(0, 130, 252) !important;
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+.navbar a {
+    color: #000000;
+    padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+    color: #e15122;
+}
+
+.hero {
+    background-image: url("jpgb.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 7rem 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: #020101;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-container iframe, .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 4rem;
+    padding: 4rem 4rem;
+    background-color: #f2f4f7;
+}
+
+.feature {
+    text-align: center;
+    padding: 4rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    min-height: 180px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature i {
+    font-size: 3rem;
+    color: #87CEEB;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.pricing {
+    padding: 5rem 2rem;
+}
+
+.pricing table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.pricing th, .pricing td {
+    padding: 1.2rem;
+    text-align: center;
+}
+
+.pricing .btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    background-color: #3a3f58;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.pricing .btn:hover {
+    background-color: #464f7a;
+}
+
+.testimonials {
+    padding: 5rem 2rem;
+    background-color: #f7f9fc;
+}
+
+.testimonials .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .card-body {
+    padding: 2rem;
+}
+
+.testimonials .card-text {
+    font-style: italic;
+}
+
+footer {
+    background-color: #3a3f58;
+    color: #e0e0e0;
+    padding: 2.5rem 1rem;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#search-results .card {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search-results .card-body {
+    padding: 1.5rem;
+}
+
+#search-results .card-title {
+    font-weight: bold;
+}
+
+#search-results .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #87CEEB;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #4682B4;
+    cursor: pointer;
+}
+
+#daftarForm, #subscribeForm {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#daftarForm .form-control, #subscribeForm .form-control {
+    margin-bottom: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1.1rem;
+    }
+    .features {
+        padding: 2rem 1rem;
+    }
+    .pricing {
+        padding: 2rem 1rem;
+    }
+}
